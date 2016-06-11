@@ -686,8 +686,9 @@ hr {
 
 .portfolio {
   width: 100%;
-  height: 2000px;
+/*  height: 100%;*/
   display: block;
+  overflow: hidden;
 }
 
 /*.pieces {
@@ -769,6 +770,22 @@ figure:hover+span {
 }*/
 
 
+.work_container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#headline_work {
+  font-family: 'Raleway', sans-serif;
+  font-size: 125px;
+  font-weight: 900;
+  color: #000;
+  display: block;
+  line-height: .8;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
 .cbp-rfgrid {
   margin: 0;
   padding: 0;
@@ -826,6 +843,7 @@ figure:hover+span {
   font-weight: 400;
   color: rgb(179, 207, 51);
   padding-top: 10px;
+  letter-spacing: .5px;
 }
 
 .cbp-rfgrid div:hover+span {
@@ -896,6 +914,7 @@ figure:hover+span {
 /******************************************/
 
 .cta {
+  width: 100%;
   margin-top: 100px;
   text-align: center;
 }
